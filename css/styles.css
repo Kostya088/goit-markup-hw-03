@@ -175,7 +175,6 @@ img {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
   
 }
 
@@ -198,6 +197,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -215,10 +215,6 @@ img {
 
 .features-list-item {
     flex-basis: calc((100% - 72px) / 4);
-}
-
-.features-text {
-    margin-top: 8px;
 }
 
 /* Our team */
@@ -333,10 +329,7 @@ img {
 
 .footer-logo {
     display: inline-block;
-    /* padding-top: 100px; */
     margin-bottom: 16px;
-    /* padding: 16px 0;
-    margin-top: 84px; */
 }
 
 .logo-footer-color {
