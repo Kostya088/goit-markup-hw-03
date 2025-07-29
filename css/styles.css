@@ -218,6 +218,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    margin-top: 72px;
 
 }
 
