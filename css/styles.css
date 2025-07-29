@@ -48,10 +48,14 @@ img {
 }
 
 /* Header */
+
+.head {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-nav {
@@ -125,7 +129,9 @@ img {
 .hero {
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 0;
 }
+
 
 .hero-title {
     color: #ffffff;
@@ -133,7 +139,7 @@ img {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -154,6 +160,7 @@ img {
     margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 169px
 }
 
 .hero-btn:hover,
@@ -172,6 +179,7 @@ img {
     width: 1px;
     height: 1px;
     margin: -1px;
+    margin-bottom: 8px;
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -218,8 +226,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-top: 72px;
-
 }
 
 .team-title {
@@ -230,14 +236,18 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-card{
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    padding: 0px 0px 32px 0px;
     flex-basis: calc((100% - 72px) / 4)
+}
+
+.team-info {
+    padding: 32px 0;
 }
 
 .team-card-title {
@@ -247,7 +257,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-card-text {
@@ -256,15 +266,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 8px;
 }
 
 /* Our Portfolio */
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 72px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
@@ -286,6 +295,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-card-title {
@@ -294,6 +304,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-card-text {
@@ -307,18 +318,19 @@ img {
 /* Footer */
 .foot {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .foot-cont {
     display: flex;
     flex-direction: column;
-    margin-left: 141px;
+    /* margin-left: 141px; */
 }
 
 .footer-logo {
-    display: block;
-    padding-top: 100px;
-    padding-bottom: 16px;
+    display: inline-block;
+    /* padding-top: 100px; */
+    margin-bottom: 16px;
     /* padding: 16px 0;
     margin-top: 84px; */
 }
@@ -333,7 +345,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 262px;
-    margin-bottom: 100px;
+    max-width: 262px;
+    /* margin-bottom: 100px; */
 }
 
