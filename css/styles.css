@@ -324,7 +324,7 @@ img {
 .foot-cont {
     display: flex;
     flex-direction: column;
-    /* margin-left: 141px; */
+    margin-left: 141px;
 }
 
 .footer-logo {
