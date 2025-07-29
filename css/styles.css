@@ -91,7 +91,6 @@ img {
 }
 
 .logo{
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -323,13 +322,11 @@ img {
 }
 
 .foot-cont {
-    display: flex;
-    flex-direction: column;
-    margin-left: 141px;
+    margin: auto;
 }
 
 .footer-logo {
-    /* display: inline-block; */
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -344,6 +341,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 262px;
-    /* margin-bottom: 100px; */
 }
 
